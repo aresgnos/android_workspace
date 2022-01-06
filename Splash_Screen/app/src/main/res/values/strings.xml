@@ -1,3 +1,21 @@
 <resources>
     <string name="app_name">Splash_Screen</string>
+
+    <!-- OnBoarding string -->
+    <string name="first_slider_title">first title</string>
+    <string name="second_slider_title">second title</string>
+    <string name="third_slider_title">third title</string>
+    <string name="fourth_slider_title">fourth title</string>
+
+    <!-- Description -->
+    <string name="first_slider_desc">Banners should be displayed at the top of the screen, below a top app bar. They’re persistent and</string>
+    <string name="second_slider_desc">mcdonald allowing the user to either ignore them or interact with them at any time. Only one banner should</string>
+    <string name="third_slider_desc">consistent and prominent location throughout an app, sharing the same elevation as screen content.</string>
+    <string name="fourth_slider_desc">Place buttons under the banner message, or on the same line if there is enough room to fit both.</string>
+
+    <!-- Button-->
+    <string name="skip_btn">Skip</string>
+    <string name="next_btn">Next</string>
+    <string name="let_get_btn">Lets Get Started</string>
+
 </resources>

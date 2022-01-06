@@ -3,8 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/android_workspace/Splash_Screen/app/src/main/res/layout/activity_join.xml" value="0.25" />
+        <entry key="..\:/android_workspace/Splash_Screen/app/src/main/res/layout/activity_login.xml" value="0.22" />
         <entry key="..\:/android_workspace/Splash_Screen/app/src/main/res/layout/activity_main.xml" value="0.33" />
         <entry key="..\:/android_workspace/Splash_Screen/app/src/main/res/layout/activity_main_page.xml" value="0.35052083333333334" />
+        <entry key="..\:/android_workspace/Splash_Screen/app/src/main/res/layout/activity_main_page2.xml" value="0.35052083333333334" />
+        <entry key="..\:/android_workspace/Splash_Screen/app/src/main/res/layout/activity_on_boarding.xml" value="0.33" />
+        <entry key="..\:/android_workspace/Splash_Screen/app/src/main/res/layout/slider_layout.xml" value="0.33" />
       </map>
     </option>
   </component>
@@ -13,5 +18,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.33" />
+      </ProjectState>
+    </option>
   </component>
 </project>

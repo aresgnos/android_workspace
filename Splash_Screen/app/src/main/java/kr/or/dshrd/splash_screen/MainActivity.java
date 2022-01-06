@@ -49,8 +49,8 @@ public class MainActivity extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                // indent = 화면을 전환하는 단위
-                Intent intent = new Intent(MainActivity.this,Main_page.class);
+                // intent = 화면을 전환하는 단위
+                Intent intent = new Intent(MainActivity.this,Login.class);
                 startActivity(intent);
                 finish();
             }
