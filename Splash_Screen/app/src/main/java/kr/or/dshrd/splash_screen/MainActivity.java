@@ -3,6 +3,7 @@ package kr.or.dshrd.splash_screen;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.WindowManager;
@@ -11,6 +12,8 @@ import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.window.SplashScreen;
+
+import kr.or.dshrd.splash_screen.Common.OnBoarding;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -21,6 +24,8 @@ public class MainActivity extends AppCompatActivity {
     Animation topanim, bottomanim;
     ImageView image;
     TextView ttitle, ttitle2;
+
+    SharedPreferences onBoardingScreen;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -49,10 +54,28 @@ public class MainActivity extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                // intent = 화면을 전환하는 단위
-                Intent intent = new Intent(MainActivity.this,Login.class);
-                startActivity(intent);
-                finish();
+                onBoardingScreen = getSharedPreferences("onBoardingScreen", MODE_PRIVATE);
+                boolean isFirstTime = onBoardingScreen.getBoolean("firstTime", true);
+
+                if(isFirstTime) {
+
+                    SharedPreferences.Editor editor = onBoardingScreen.edit();
+                    editor.putBoolean("firstTime", false);
+                    editor.commit();
+
+
+                    // intent = 화면을 전환하는 단위
+                    Intent intent = new Intent(MainActivity.this, OnBoarding.class);
+                    startActivity(intent);
+                    finish();
+
+                }
+                else{
+                    Intent intent = new Intent(MainActivity.this, Main_page.class);
+                    startActivity(intent);
+                    finish();
+                }
+
             }
         }, SPLASH_SCREEN);
 
