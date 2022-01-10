@@ -7,6 +7,24 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="ttt">#FFCE31</color>
+
+
+    <!-- Mainpage color -->
+
+    <!-- Body and Background Colors -->
+    <color name="main_background">#F2F2F2</color>
+
+    <!-- Contents Colors -->
+    <color name="order_background">#E8F0FA</color>
+
+    <!-- rating colors -->
+    <color name="rating_star">#E86C6C</color>
+    <color name="rating_back">#505050</color>
+
+
+
+
+
+
 
 </resources>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="160dp"
+    android:layout_height="260dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="4dp"
+    app:cardElevation="8dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginTop="10dp">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/order_image"
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            android:src="@drawable/order_01"
+            android:scaleType="centerCrop"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:id="@+id/order_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Apple watch"
+            android:textSize="20dp"
+            android:fontFamily="@font/play_bold"
+            android:textColor="@color/black" />
+
+        <RatingBar
+            android:id="@+id/order_rating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:rating="4"
+            style="@style/Widget.AppCompat.RatingBar.Small"
+            android:progressTint="@color/rating_star"
+            android:progressBackgroundTint="@color/rating_back" />
+
+            <!-- android:numStars="5"
+                 android:stepSize="1" -->
+
+        <TextView
+            android:id="@+id/order_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/order_online_description"
+            android:textSize="10sp"
+            android:fontFamily="@font/play_re"
+            android:layout_marginTop="10dp" />
+
+        
+        
+        
+    </LinearLayout>
+        
+    
+
+</androidx.cardview.widget.CardView>

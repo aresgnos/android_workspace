@@ -13,9 +13,24 @@
     <string name="third_slider_desc">consistent and prominent location throughout an app, sharing the same elevation as screen content.</string>
     <string name="fourth_slider_desc">Place buttons under the banner message, or on the same line if there is enough room to fit both.</string>
 
-    <!-- Button-->
+    <!-- Button -->
     <string name="skip_btn">Skip</string>
     <string name="next_btn">Next</string>
     <string name="let_get_btn">Lets Get Started</string>
+    
+    
+    <!-- Mainpage -->
+    <string name="menu_01">Menu_01</string>
+    <string name="menu_02">Menu_02</string>
+    <string name="menu_03">Menu_03</string>
+    <string name="menu_04">Menu_04</string>
+    
+    <!-- Title and Description -->
+    <string name="order_online_collect">Order online collect</string>
+    <string name="order_online_description">Available when you purchase any new iPhone, iPad, iPod Touch.</string>
+    <string name="product_viewed">Product Viewed</string>
+    <string name="see_more">see more</string>
+    <string name="search_text">Search...</string>
+
 
 </resources>
